@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="bgone">
+        <div class="bar">
+            <!-- <img class="logo" src="{{url_for('static', filename='LOGO.jpg')}}" alt="pic"> -->
+            <!-- <img class="logC" src="{{url_for('static', filename='confetti.png')}}" alt="pic"> -->
+            <p class="txtheds">SERMO</p>
+            <a href="#" class="txthed">Home</a>
+            <a href="#/About" class="txthed">About</a>
+            <a href="#/Contact" class="txthed">Contact us</a>
+        </div class="main-txt">
+        <p class="heder">SERMO.</p>
+        <p class="heder-ft">Sermo is a ticket booking chatbot which aids people in booking tickets for museums with a simple UI and UX design and makes it completely hassle-free to use.</p>
+    </div>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img class="user-logo" src="{{url_for('static', filename='user.png')}}" alt="">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h3 class="chatbox__description--header">Sermo</h3>
+                    </div>
+                </div>
+                <div class="watermark">
+                    <img class="watermark-img" src="{{url_for('static', filename='LOGO.jpg')}}" alt="pic">
+                </div>
+                <div class="chatbox__messages">
+                    <!-- Messages will be injected here -->
+                </div>
+               
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <span class="material-symbols-outlined send__button send-btn">send</span>
+                </div>
+            </div>
+            <div class="chatbox__button">   
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>    
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

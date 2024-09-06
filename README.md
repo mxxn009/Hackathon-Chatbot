@@ -1,6 +1,6 @@
 # Hackathon-Chatbot
 
-This is a Chatbot which we made for booking tickets, it can respond but currently it cannot store user information, feel free to contribute.
+This is a Chatbot we made for a Hackathon for booking tickets, it can respond but currently it cannot store user information, feel free to contribute.
 
 To use the chatbot:
 Clone this repository and change directory to the cloned repository and then follow the steps mentioned below:

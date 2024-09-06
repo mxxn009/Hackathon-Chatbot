@@ -23,9 +23,9 @@ python3 -m venv venv
 5. Install nltk package
 
 ```
-      (venv) python
-      >>> import nltk
-      >>> nltk.download('punkt')
+(venv) python
+>>> import nltk
+>>> nltk.download('punkt')
 ```
 6. Modify intents.json according to your requirement
 7. Run

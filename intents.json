@@ -1,0 +1,214 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hey there!",
+          "Howdy!",
+          "Hiya!",
+          "What's up?",
+          "Greetings!",
+          "What's new?",
+          "How's it going?",
+          "Yo",
+          "Hi there!"
+        ],
+        "responses": [
+          "Hey there! How can I assist you today?",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hiya! Need any help?",
+          "Howdy! What can I do for you?",
+          "Greetings! How can I assist you?",
+          "What's new with you today?",
+          "Yo! How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Catch you later!",
+          "See you soon!",
+          "Farewell!",
+          "Take care!",
+          "I'm off now",
+          "Have a great day!",
+          "Until next time"
+        ],
+        "responses": [
+          "See you later! Have a great day!",
+          "Have a nice day! Come back anytime.",
+          "Bye! Thanks for stopping by.",
+          "Take care and see you again!",
+          "I'm glad I could help. Goodbye for now!",
+          "Until next time! Have a wonderful day."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it!",
+          "Much appreciated!",
+          "Thanks a bunch!",
+          "You're awesome, thanks!",
+          "Thanks for your help!",
+          "I'm grateful for your assistance."
+        ],
+        "responses": [
+          "You're welcome! Glad I could help.",
+          "Anytime! Feel free to ask more.",
+          "My pleasure! Let me know if you need anything else.",
+          "Happy to help!",
+          "Anytime! Don't hesitate to reach out again.",
+          "You're welcome! I'm here if you need anything else."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "Can I use my credit card?",
+          "Do you accept digital payments?",
+          "What payment methods are available?",
+          "What forms of payment do you accept?",
+          "Can I pay by debit card?",
+          "Do you support contactless payments?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, and Paypal.",
+          "We accept most major credit cards and Paypal.",
+          "You can pay with credit cards or Paypal.",
+          "We accept major credit cards and digital payments like Paypal.",
+          "We also support contactless payments for convenience."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "How fast is your delivery?",
+          "When can I expect my order?",
+          "Delivery time?",
+          "What's the estimated delivery time?",
+          "How soon can I receive my order?",
+          "How long will my shipment take?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days.",
+          "Shipping takes 2-4 days.",
+          "Orders typically arrive within 2-4 days.",
+          "Expect delivery in 2-4 days.",
+          "We aim to deliver your order as quickly as possible, usually within 2-4 days."
+        ]
+      },
+      {
+        "tag": "tickets",
+        "patterns": [
+          "Book my tickets",
+          "Can you book my tickets?",
+          "Can you help me book my tickets?",
+          "Help me with ticket booking",
+          "Can you assist with booking tickets?",
+          "I need to book tickets.",
+          "Assist me in booking tickets.",
+          "Can I get tickets booked?",
+          "I want to book some tickets.",
+          "Can you handle my ticket booking?"
+        ],
+        "responses": [
+          "Sure! Let's get started with your ticket booking. Can you mention the date and time for your visit? in the format of date - 25 auagust 2024 and time - 12.00 pm",
+          "Yes, of course! May I assist you with the date and time? Use the format of date - 25 auagust 2024 and time - 12.00 pm",
+          "I can help with that. Shall we discuss the date and time? Use the format of date - 25 auagust 2024 and time - 12.00 pm",
+          "Of course! Let's move further with the booking. Please mention the date and time of your arrival. Use the format of date - 25 august 2024 and time - 12.00 pm",
+          "I'm ready to assist you with booking tickets. At what time and date do you need them? Use the format of date - 25 august 2024 and time - 12.00 pm"
+        ]
+      },
+      {
+        "tag": "support",
+        "patterns": [
+          "I need help",
+          "Can you support me?",
+          "I have a problem",
+          "Help me with an issue",
+          "Can you assist me with something?",
+          "I need assistance",
+          "I'm having trouble",
+          "I need technical support",
+          "Can you solve my problem?",
+          "I'm having an issue, can you help?"
+        ],
+        "responses": [
+          "Of course! What seems to be the problem?",
+          "I'm here to help. What do you need assistance with?",
+          "Please describe your issue, and I'll do my best to assist you.",
+          "Let me know what you need help with, and I'll be glad to assist.",
+          "I'm ready to support you. What's the issue?"
+        ]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "january 2024",
+          "february 2024",
+          "march 2024",
+          "april 2024",
+          "may 2024",
+          "june 2024",
+          "july 2024",
+          "august 2024",
+          "september 2024",
+          "october 2024",
+          "november 2024",
+          "december 2024"
+        ],
+        "responses": [
+          "Great! Now please tell me the no. of adults and children.",
+          "Cool! Now please tell me the no. of adults and children.",
+          "Okay! Now please tell me the no. of adults and children." 
+        ]
+      },
+      {
+        "tag": "adults children",
+        "patterns": [
+          "adult",
+          "adults",
+          "child",
+          "children"
+        ],
+        "responses": [
+          "Great! The data provided by you has been entered in our database. Please complete the payment to confirm your booking. After the payment completion, you will be recieving your ticket via mail. Thank you for your collaboration. Please comment 'payment' to get the payment link." 
+       
+        ]
+      },
+      {
+        "tag": "comment",
+        "patterns": [
+          "comment",
+          "comments",
+          "payment",
+          "payments",
+          "pay"
+        ],
+        "responses": [
+          "<html><a href='https://www.paypal.com/' target='_blank'>Click here for payment</a></html>"
+        ]
+      }
+    ]
+  }
+  

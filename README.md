@@ -4,7 +4,6 @@ This is a Chatbot which we made for booking tickets, it can respond but currentl
 
 To use the chatbot:
 1. Make a virtual environment using the command
-'''
-  python3 -m venv venv
-
-'''
+***
+python3 -m venv venv
+***
